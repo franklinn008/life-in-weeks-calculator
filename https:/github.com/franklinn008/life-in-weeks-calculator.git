@@ -1,0 +1,7 @@
+print("welcome to your life in weeks calculator\n")
+age = input("please state your current age: \n")
+years_left = 90-int(age)
+days = int(years_left)*365
+weeks = int(years_left)*52
+months = int(years_left)*12
+print(f"you have {days} days, {weeks} weeks and {months} months left")
